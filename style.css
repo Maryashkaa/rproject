@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://s3-alpha-sig.figma.com/img/3831/5c7e/9c01e5a7294e7b1cbebc53a59a7d48e8?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=feJXq1duA1LGskqI~YNYuy3DcvdLNgHTdYy9-cbL7dR5WRBWSGKeqsy1JFSJrCj2Kcjblpnz2dChPfwx82Ru68HvTVWPdLB7pflzoLdbsvYNkCIcewh4J1wsT0~O7bAOZRk7U7kXt6XXXGmPV3lHAMnDC1M8ZO0jQsL5qLezQzMqYo6DGM2A2R9u8XQGlZt~LY7vrjytn5WePKD9i2GrxMR~XOSPrB9gktRQRc3nSaeeCqt7NmCRaT9YidXzCiOCuWuRihH8z6mSw5ExPtG5xXzhArW2YDB-dZl8YJ2dGgYtNvFMq-Re-3Cb~nFHJ89PPjxbdoRuub-5cPlmFUeo7A__);
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-name {
+  color: white;
+  margin: 90px;
+  padding-top: 0;
+  font-size: 30px;
+}
+
+.button {
+  border-radius: 4px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 200px;
+  color: white;
+  background-color: #1a3e3e;
+  font-size: 20px;
+}
+
+.button:hover{
+    background-color: white;
+    color:#1a3e3e;
+}
+
+
+
+ul {
+  color: rgb(255, 255, 255);
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: auto 0;
+}
+
+ul:hover{
+    color: yellow;
+  
+}
+
+
+
+li {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.title-block {
+  color: white;
+  font-size: 70px;
+  margin: 90px;
+}
+
+.info-table {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  justify-content: space-between;
+  border-radius: 10px;
+  height: 180px;
+  width: 1300px;
+  border: 3px;
+  backdrop-filter: blur(5px);
+  border: 0px;
+  background-color: #ffffff33;
+}
+
+.location {
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  height: 50px;
+  width: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.data {
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  height: 50px;
+  width: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.members {
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  height: 50px;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.members img {
+  margin: 20px;
+}
+
+.data img {
+  margin: 20px;
+}
+
+.location img {
+  margin: 20px;
+}
